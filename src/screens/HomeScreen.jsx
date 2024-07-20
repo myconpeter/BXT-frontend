@@ -27,7 +27,7 @@ const HomeScreen = () => {
 							</button>
 
 							<div>
-								<p className='text-4xl font-extrabold ml-9 text-white font-serif bg-lightGray p-5'>
+								<p className='text-4xl font-extrabold ml-9 text-white font-serif bg-blueOne rounded-lg p-5'>
 									TECH WORLD
 								</p>
 							</div>
