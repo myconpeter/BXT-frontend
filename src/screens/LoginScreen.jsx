@@ -66,19 +66,18 @@ const LoginScreen = () => {
 					</div>
 				</div>
 
-				<button
-					type='submit'
-					to='/home/homepage'
+				<Link
+					to='/home'
 					className='bg-blueOne font-medium p-2 text-white text-center w-5/6 rounded-xl justify-center items-center ml-9 text-xl mt-5 '>
 					{'Login'}
-				</button>
+				</Link>
 
 				<div className='flex  justify-end mr-4 mt-3'>
-					<button
-						to='/recoveremail'
+					<Link
+						to='/forgot-password'
 						className=' text-sm text-blueTwo font-bold'>
 						Forgotten Password ?{' '}
-					</button>
+					</Link>
 				</div>
 
 				{/* the sign up function */}
@@ -86,9 +85,11 @@ const LoginScreen = () => {
 					<p className='text-sm text-blueOne'>
 						Dont't have an account ?{' '}
 					</p>
-					<button className='font-bold text-blueThree'>
+					<Link
+						to='/register'
+						className='font-bold text-blueThree'>
 						Register
-					</button>
+					</Link>
 				</div>
 			</form>
 		</div>

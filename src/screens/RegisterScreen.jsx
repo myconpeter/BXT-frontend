@@ -134,12 +134,12 @@ const RegisterScreen = () => {
 					</div>
 				</div>
 
-				<button
+				<Link
 					type='submit'
-					to='/home/homepage'
+					to='/home'
 					className='bg-blueOne font-medium p-2 text-white text-center w-5/6 rounded-xl justify-center items-center ml-9 text-xl mt-5 '>
 					{'Register'}
-				</button>
+				</Link>
 
 				{/* <div className='flex  justify-end mr-4 mt-3'>
 					<button
@@ -151,10 +151,14 @@ const RegisterScreen = () => {
 
 				{/* the sign up function */}
 				<div className='flex flex-col items-end pt-2 mt-1 space-y-1 mr-4'>
-					<p className='text-sm text-blueOne'>
-						Already have an account ?{' '}
-					</p>
-					<button className='font-bold text-blueThree'>Log In</button>
+					<Link to='/login'>
+						<p className='text-sm text-blueOne'>
+							Already have an account ?{' '}
+						</p>
+						<button className='font-bold text-blueThree'>
+							Log In
+						</button>
+					</Link>
 				</div>
 			</form>
 		</div>

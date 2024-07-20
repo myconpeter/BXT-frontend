@@ -1,6 +1,7 @@
 import { FaUser } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
+import { BsFillHexagonFill } from 'react-icons/bs';
 
 const ForgotPassword = () => {
 	const [email, setEmail] = useState('');
@@ -41,7 +42,7 @@ const ForgotPassword = () => {
 							className='bg-transparent focus:outline-none h-11 ml-3 '
 							value={email}
 							onChange={(e) => setEmail(e.target.value)}
-							placeholder='Please Enter A Registered Email Address'
+							placeholder='Email Address'
 						/>
 					</div>
 				</div>
