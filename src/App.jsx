@@ -18,6 +18,7 @@ import AboutUsScreen from './screens/AboutUsScreen';
 import AirtimePurchase from './screens/AirtimeSection/AirtimePurchase';
 import DataPurchase from './screens/AirtimeSection/DataPurchase';
 import UtilityBill from './screens/AirtimeSection/UtilityBill';
+import IntroScreen from './screens/Edutech/IntroScreen';
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -87,6 +88,13 @@ const router = createBrowserRouter(
 						element={<UtilityBill />}
 					/>
 				</Route>
+
+				{/* EDU TECH ACTION */}
+
+				<Route
+					index
+					path='/edutech'
+					element={<IntroScreen />}></Route>
 			</Route>
 		</Route>
 	)

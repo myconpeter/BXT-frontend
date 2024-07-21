@@ -1,11 +1,11 @@
-import React from 'react';
+import Menu from './Menu';
 
 const ComingSoon = () => {
 	return (
-		<div>
-			<div>
-				<p>Coming soon</p>
-			</div>
+		<div className='relative bg-lightGray w-screen h-screen flex items-center justify-center'>
+			{/* <div className='bg-blueOne w-full h-full text-white'>
+				COMING SOON !!!
+			</div> */}
 		</div>
 	);
 };

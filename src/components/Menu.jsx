@@ -91,7 +91,7 @@ const Menu = (props) => {
 					<div
 						onClick={() => setNav(!nav)}
 						className='w-2/3   h-screen '></div>
-					<ul className=' flex  flex-col  w-2/3 bg-lightGray text-black h-screen items-start mt-5'>
+					<ul className=' flex  flex-col  w-2/3 bg-lightGray text-blueOne h-screen items-start mt-5'>
 						{links.map(({ id, link, ref, tabIcon }) => (
 							<li
 								key={id}

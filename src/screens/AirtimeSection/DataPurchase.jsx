@@ -31,6 +31,37 @@ const DataPurchase = () => {
 					<p className='relative font-bold text-blueOne text-lg'>
 						Plan
 					</p>
+
+					<div className='relative space-y-5 mt-3'>
+						<div className='relative shadow-md shadow-gray-700 text-md text-blueOne px-2 py-1 flex  justify-between items-center font-semibold'>
+							<p>Daily Plan </p>
+							<p>0.000234 $BST </p>
+							<button className='p-2 bg-blueOne text-white rounded-lg font-semibold'>
+								Pay{' '}
+							</button>
+						</div>
+						<div className='relative shadow-md shadow-gray-700 text-md text-blueOne px-2 py-1 flex  justify-between items-center font-semibold'>
+							<p>Weekly Plan </p>
+							<p>0.003234 $BST </p>
+							<button className='p-2 bg-blueOne text-white rounded-lg font-semibold'>
+								Pay{' '}
+							</button>
+						</div>
+						<div className='relative shadow-md shadow-gray-700 text-md text-blueOne px-2 py-1 flex  justify-between items-center font-semibold'>
+							<p>Monthly Plan </p>
+							<p>0.045234 $BST </p>
+							<button className='p-2 bg-blueOne text-white rounded-lg font-semibold'>
+								Pay{' '}
+							</button>
+						</div>
+						<div className='relative shadow-md shadow-gray-700 text-md text-blueOne px-2 py-1 flex  justify-between items-center font-semibold'>
+							<p>Yearly Plan </p>
+							<p>9.912234 $BST </p>
+							<button className='p-2 bg-blueOne text-white rounded-lg font-semibold'>
+								Pay{' '}
+							</button>
+						</div>
+					</div>
 				</div>
 
 				{<WarningText />}

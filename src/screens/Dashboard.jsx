@@ -61,7 +61,9 @@ const Dashboard = () => {
 						<p>Data and Utility Bill Payment</p>
 					</Link>
 
-					<Link className='flex justify-start items-center space-x-3 text-lg text-blueOne'>
+					<Link
+						to='/edutech'
+						className='flex justify-start items-center space-x-3 text-lg text-blueOne'>
 						<GiSpellBook className='text-2xl' />
 						<p>Edutech skills acquisition platforms</p>
 					</Link>
