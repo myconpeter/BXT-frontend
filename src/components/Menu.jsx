@@ -24,39 +24,33 @@ const Menu = (props) => {
 		{
 			id: 1,
 			link: 'Home',
-			ref: '/home/homepage',
+			ref: '#',
 			tabIcon: <FaHome />,
 		},
 		{
 			id: 2,
 			link: 'Dashboard',
-			ref: '/home/dashboard',
+			ref: '#',
 			tabIcon: <MdDashboard />,
 		},
 
 		{
 			id: 3,
 			link: 'Information',
-			ref: '/home/infomation',
+			ref: '#',
 			tabIcon: <IoMdInformationCircle />,
 		},
 		{
 			id: 4,
 			link: 'Settings',
-			ref: '/home/settings',
+			ref: '#',
 			tabIcon: <IoSettingsSharp />,
-		},
-		{
-			id: 5,
-			link: 'FAQ',
-			ref: '/home/faq',
-			tabIcon: <FaQuestionCircle />,
 		},
 
 		{
 			id: 6,
 			link: 'About Us',
-			ref: '/home/about',
+			ref: '#',
 			tabIcon: <CgMoreO />,
 		},
 		{
@@ -97,7 +91,7 @@ const Menu = (props) => {
 					<div
 						onClick={() => setNav(!nav)}
 						className='w-2/3   h-screen '></div>
-					<ul className=' flex  flex-col  w-1/3 bg-white text-black h-screen items-start mt-5'>
+					<ul className=' flex  flex-col  w-2/3 bg-lightGray text-black h-screen items-start mt-5'>
 						{links.map(({ id, link, ref, tabIcon }) => (
 							<li
 								key={id}

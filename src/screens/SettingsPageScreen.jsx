@@ -23,8 +23,8 @@ const SettingsPageScreen = () => {
 					<div className='space-y-1'>
 						<div className='flex items-center justify-between mx-4 text-blueOne font-bold shadow-sm shadow-gray-700 p-2'>
 							<div className='flex items-center gap-3'>
-								<MdOutlineContactMail className='text-3xl' />
-								<p className='text-xl'>Update Profile</p>
+								<MdOutlineContactMail className='text-xl' />
+								<p className='text-lg'>Update Profile</p>
 							</div>
 
 							<IoIosArrowForward className='text-xl' />
@@ -32,8 +32,8 @@ const SettingsPageScreen = () => {
 
 						<div className='flex items-center justify-between mx-4 text-blueOne font-bold shadow-sm shadow-gray-700 p-2'>
 							<div className='flex items-center gap-3'>
-								<GiPadlockOpen className='text-3xl' />
-								<p className='text-xl'>Change Password</p>
+								<GiPadlockOpen className='text-xl' />
+								<p className='text-lg'>Change Password</p>
 							</div>
 
 							<IoIosArrowForward className='text-xl' />
@@ -41,8 +41,8 @@ const SettingsPageScreen = () => {
 
 						<div className='flex items-center justify-between mx-4 text-blueOne font-bold shadow-sm shadow-gray-700 p-2'>
 							<div className='flex items-center gap-3'>
-								<MdDashboard className='text-3xl' />
-								<p className='text-xl'>Dashboard</p>
+								<MdDashboard className='text-xl' />
+								<p className='text-lg'>Dashboard</p>
 							</div>
 
 							<IoIosArrowForward className='text-xl' />
@@ -57,8 +57,8 @@ const SettingsPageScreen = () => {
 						<div className='space-y-1'>
 							<div className='flex items-center justify-between mx-4 text-blueOne font-bold shadow-sm shadow-gray-700 p-2'>
 								<div className='flex items-center gap-3'>
-									<MdOutlineContactPhone className='text-3xl' />
-									<p className='text-xl'>Contact Support</p>
+									<MdOutlineContactPhone className='text-xl' />
+									<p className='text-lg'>Contact Support</p>
 								</div>
 
 								<IoIosArrowForward className='text-xl' />
@@ -66,8 +66,8 @@ const SettingsPageScreen = () => {
 
 							<div className='flex items-center justify-between mx-4 text-blueOne font-bold shadow-sm shadow-gray-700 p-2'>
 								<div className='flex items-center gap-3'>
-									<FaTelegram className='text-3xl' />
-									<p className='text-xl'>Telegram</p>
+									<FaTelegram className='text-xl' />
+									<p className='text-lg'>Telegram</p>
 								</div>
 
 								<IoIosArrowForward className='text-xl' />
@@ -75,8 +75,8 @@ const SettingsPageScreen = () => {
 
 							<div className='flex items-center justify-between mx-4 text-blueOne font-bold shadow-sm shadow-gray-700 p-2'>
 								<div className='flex items-center gap-3'>
-									<FaFacebook className='text-3xl' />
-									<p className='text-xl'>Facebook</p>
+									<FaFacebook className='text-xl' />
+									<p className='text-lg'>Facebook</p>
 								</div>
 
 								<IoIosArrowForward className='text-xl' />
@@ -92,17 +92,17 @@ const SettingsPageScreen = () => {
 						<div className='space-y-10'>
 							<div className='flex items-center justify-between mx-4 text-blueOne font-bold shadow-sm shadow-gray-700 p-2'>
 								<div className='flex items-center gap-3'>
-									<HiDocumentText className='text-3xl' />
+									<HiDocumentText className='text-xl' />
 									<p className='text-xl'>Terms of Use</p>
 								</div>
 
-								<IoIosArrowForward className='text-xl' />
+								<IoIosArrowForward className='text-lg' />
 							</div>
 
 							<div className='flex items-center justify-between mx-4 text-red-700 font-bold shadow-sm shadow-gray-700 p-2'>
 								<div className='flex items-center gap-3'>
-									<BiLogOut className='text-3xl' />
-									<p className='text-xl'>Logout</p>
+									<BiLogOut className='text-xl' />
+									<p className='text-lg'>Logout</p>
 								</div>
 
 								<IoIosArrowForward className='text-xl' />

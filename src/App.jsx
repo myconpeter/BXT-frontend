@@ -15,6 +15,9 @@ import WalletPageScreen from './screens/WalletPageScreen';
 import HomePageScreen from './screens/HomePageScreen';
 import SettingsPageScreen from './screens/SettingsPageScreen';
 import AboutUsScreen from './screens/AboutUsScreen';
+import AirtimePurchase from './screens/AirtimeSection/AirtimePurchase';
+import DataPurchase from './screens/AirtimeSection/DataPurchase';
+import UtilityBill from './screens/AirtimeSection/UtilityBill';
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -65,6 +68,25 @@ const router = createBrowserRouter(
 					path='/about'
 					element={<AboutUsScreen />}
 				/>
+
+				<Route
+					path='/payment-service'
+					element={<HomeLayout />}>
+					<Route
+						path='airtime-purchase'
+						element={<AirtimePurchase />}
+					/>
+
+					<Route
+						path='data-purchase'
+						element={<DataPurchase />}
+					/>
+
+					<Route
+						path='utility-bills'
+						element={<UtilityBill />}
+					/>
+				</Route>
 			</Route>
 		</Route>
 	)

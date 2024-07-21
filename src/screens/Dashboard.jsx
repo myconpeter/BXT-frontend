@@ -11,6 +11,7 @@ import { MdOutlineSsidChart } from 'react-icons/md';
 import { AiFillDollarCircle } from 'react-icons/ai';
 import { FaUsersRays } from 'react-icons/fa6';
 import { RiBitCoinLine } from 'react-icons/ri';
+import { Link } from 'react-router-dom';
 
 const Dashboard = () => {
 	return (
@@ -19,8 +20,8 @@ const Dashboard = () => {
 
 			<div className='pt-16  w-screen'>
 				<div className='flex justify-center items-center flex-col'>
-					<p className='text-blueOne text-2xl'>Total Balance</p>
-					<p className='text-blueOne text-3xl font-bold'>
+					<p className='text-blueOne text-xl'>Total Balance</p>
+					<p className='text-blueOne text-2xl font-bold'>
 						0.00001234
 					</p>
 					<p className='text-blueOne text-xl font-bold'>$20.00</p>
@@ -28,16 +29,16 @@ const Dashboard = () => {
 
 				<div className='mt-2 flex justify-center items-center space-x-4 '>
 					<div className='flex flex-col justify-center items-center'>
-						<RiRefund2Fill className='text-5xl bg-white p-2 rounded-full text-blueOne font-extrabold' />
+						<RiRefund2Fill className='text-4xl bg-white p-2 rounded-full text-blueOne font-extrabold' />
 						<p className='text-blueTwo'>Fund</p>
 					</div>
 
 					<div className='flex flex-col justify-center items-center'>
-						<ImArrowUp className='text-5xl bg-white p-2 rounded-full text-blueOne font-extrabold' />
+						<ImArrowUp className='text-4xl bg-white p-2 rounded-full text-blueOne font-extrabold' />
 						<p className='text-blueTwo'>Buy</p>
 					</div>
 					<div className='flex flex-col justify-center items-center'>
-						<ImArrowDown className='text-5xl bg-white p-2 rounded-full text-blueOne font-extrabold' />
+						<ImArrowDown className='text-4xl bg-white p-2 rounded-full text-blueOne font-extrabold' />
 						<p className='text-blueTwo'>Sell</p>
 					</div>
 				</div>
@@ -52,35 +53,43 @@ const Dashboard = () => {
 					</p>
 				</div>
 
-				<div className='mt-3 space-y-10'>
-					<div className='flex justify-start items-center space-x-3 text-[21px] text-blueOne'>
-						<BiWorld className='text-3xl' />
+				<div className='mt-3 space-y-7'>
+					<Link
+						to='/payment-service/airtime-purchase'
+						className='flex justify-start items-center space-x-3 text-lg text-blueOne'>
+						<BiWorld className='text-2xl' />
 						<p>Data and Utility Bill Payment</p>
-					</div>
-					<div className='flex justify-start items-center space-x-3 text-xl text-blueOne'>
-						<GiSpellBook className='text-3xl' />
+					</Link>
+
+					<Link className='flex justify-start items-center space-x-3 text-lg text-blueOne'>
+						<GiSpellBook className='text-2xl' />
 						<p>Edutech skills acquisition platforms</p>
-					</div>
-					<div className='flex justify-start items-center space-x-3 text-xl text-blueOne'>
-						<BiSolidBookReader className='text-3xl' />
+					</Link>
+
+					<Link className='flex justify-start items-center space-x-3 text-lg text-blueOne'>
+						<BiSolidBookReader className='text-2xl' />
 						<p>E-booking system</p>
-					</div>
-					<div className='flex justify-start items-center space-x-3 text-xl text-blueOne'>
-						<MdOutlineSsidChart className='text-3xl' />
+					</Link>
+
+					<Link className='flex justify-start items-center space-x-3 text-lg text-blueOne'>
+						<MdOutlineSsidChart className='text-2xl' />
 						<p>Staking Platform</p>
-					</div>
-					<div className='flex justify-start items-center space-x-3 text-xl text-blueOne'>
-						<AiFillDollarCircle className='text-3xl' />
+					</Link>
+
+					<Link className='flex justify-start items-center space-x-3 text-lg text-blueOne'>
+						<AiFillDollarCircle className='text-2xl' />
 						<p>Crypto ot Fait exchange</p>
-					</div>
-					<div className='flex justify-start items-center space-x-3 text-xl text-blueOne'>
-						<FaUsersRays className='text-3xl' />
+					</Link>
+
+					<Link className='flex justify-start items-center space-x-3 text-lg text-blueOne'>
+						<FaUsersRays className='text-2xl' />
 						<p>Peer-to-peer </p>
-					</div>
-					<div className='flex justify-start items-center space-x-3 text-xl text-blueOne'>
-						<RiBitCoinLine className='text-3xl' />
+					</Link>
+
+					<Link className='flex justify-start items-center space-x-3 text-lg text-blueOne'>
+						<RiBitCoinLine className='text-2xl' />
 						<p>BST DEX</p>
-					</div>
+					</Link>
 				</div>
 			</div>
 		</div>
