@@ -19,6 +19,11 @@ import AirtimePurchase from './screens/AirtimeSection/AirtimePurchase';
 import DataPurchase from './screens/AirtimeSection/DataPurchase';
 import UtilityBill from './screens/AirtimeSection/UtilityBill';
 import IntroScreen from './screens/Edutech/IntroScreen';
+import BookingHomeScreen from './screens/E-booking/BookingHomeScreen';
+import StakingHomeScreen from './screens/staking/StakingHomeScreen';
+import ExchangeHomeScreen from './screens/exchange/ExchangeHomeScreen';
+import PeerHomeScreen from './screens/peer-to-peer/PeerHomeScreen';
+import BSTHomeScreen from './screens/BST-DEX/BSTHomeScreen';
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -95,6 +100,36 @@ const router = createBrowserRouter(
 					index
 					path='/edutech'
 					element={<IntroScreen />}></Route>
+
+				{/* Route for E-booking platform */}
+				<Route
+					index
+					path='/e-booking'
+					element={<BookingHomeScreen />}></Route>
+
+				{/* Staking Platform */}
+
+				<Route
+					index
+					path='/staking'
+					element={<StakingHomeScreen />}></Route>
+
+				{/* CRYPTO EXPHANGE */}
+
+				<Route
+					index
+					path='/exchange'
+					element={<ExchangeHomeScreen />}></Route>
+
+				<Route
+					index
+					path='/peer'
+					element={<PeerHomeScreen />}></Route>
+
+				<Route
+					index
+					path='/bst-dex'
+					element={<BSTHomeScreen />}></Route>
 			</Route>
 		</Route>
 	)

@@ -43,13 +43,27 @@ const HomePageScreen = () => {
 				<div>
 					<p className='text-2xl font-bold text-blueTwo'>Products</p>
 					<div className='relative flex mt-3 gap-4 justify-center'>
-						<BiWorld className='p-1 bg-white text-blueTwo rounded-full text-4xl' />
-						<GiSpellBook className='p-1 bg-white text-blueTwo rounded-full text-4xl' />
-						<BiSolidBookReader className='p-1 bg-white text-blueTwo rounded-full text-4xl' />
-						<MdOutlineSsidChart className='p-1 bg-white text-blueTwo rounded-full text-4xl' />
-						<AiFillDollarCircle className='p-1 bg-white text-blueTwo rounded-full text-4xl' />
-						<FaUsersRays className='p-1 bg-white text-blueTwo rounded-full text-4xl' />
-						<RiBitCoinLine className='p-1 bg-white text-blueTwo rounded-full text-4xl' />
+						<Link to='/payment-service/airtime-purchase'>
+							<BiWorld className='p-1 bg-white text-blueTwo rounded-full text-4xl' />
+						</Link>
+						<Link to='/edutech'>
+							<GiSpellBook className='p-1 bg-white text-blueTwo rounded-full text-4xl' />
+						</Link>
+						<Link to='/e-booking'>
+							<BiSolidBookReader className='p-1 bg-white text-blueTwo rounded-full text-4xl' />
+						</Link>
+						<Link to='/staking'>
+							<MdOutlineSsidChart className='p-1 bg-white text-blueTwo rounded-full text-4xl' />
+						</Link>
+						<Link to='/exchange'>
+							<AiFillDollarCircle className='p-1 bg-white text-blueTwo rounded-full text-4xl' />
+						</Link>
+						<Link to='/peer'>
+							<FaUsersRays className='p-1 bg-white text-blueTwo rounded-full text-4xl' />
+						</Link>
+						<Link to='/bst-dex'>
+							<RiBitCoinLine className='p-1 bg-white text-blueTwo rounded-full text-4xl' />
+						</Link>
 					</div>
 				</div>
 			</div>

@@ -19,7 +19,7 @@ const HomeScreen = () => {
 						<div className=' absolute top-[370px] z-10 rounded-full flex w-fit flex-col '>
 							<button
 								to='loginORsignup'
-								className=' text-blueOne text-2xl font-serif font-bold flex cursor-pointer w-fit ml-9'>
+								className=' text-blueOne text-2xl font-serif font-bold flex cursor-pointer w-full ml-9'>
 								ENTER INTO THE
 								<span className='text-black ml-5  '>
 									{/* <FaLocationArrow className='text-overLay rotate-45' /> */}

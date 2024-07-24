@@ -15,6 +15,7 @@ import { CgMoreO } from 'react-icons/cg';
 import { BiSolidContact } from 'react-icons/bi';
 import { IoExit } from 'react-icons/io5';
 import { MdAdminPanelSettings } from 'react-icons/md';
+import { BiSolidWallet } from 'react-icons/bi';
 
 const Menu = (props) => {
 	const [nav, setNav] = useState(false);
@@ -24,39 +25,39 @@ const Menu = (props) => {
 		{
 			id: 1,
 			link: 'Home',
-			ref: '#',
+			ref: '/home',
 			tabIcon: <FaHome />,
 		},
 		{
 			id: 2,
 			link: 'Dashboard',
-			ref: '#',
+			ref: '/dashboard',
 			tabIcon: <MdDashboard />,
 		},
 
 		{
 			id: 3,
-			link: 'Information',
-			ref: '#',
-			tabIcon: <IoMdInformationCircle />,
+			link: 'Wallet',
+			ref: '/wallet',
+			tabIcon: <BiSolidWallet />,
 		},
 		{
 			id: 4,
 			link: 'Settings',
-			ref: '#',
+			ref: '/settings',
 			tabIcon: <IoSettingsSharp />,
 		},
 
 		{
 			id: 6,
 			link: 'About Us',
-			ref: '#',
+			ref: '/about',
 			tabIcon: <CgMoreO />,
 		},
 		{
 			id: 7,
 			link: 'Contact Us',
-			ref: '/home/contact',
+			ref: '/about',
 			tabIcon: <BiSolidContact />,
 		},
 	];

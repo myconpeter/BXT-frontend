@@ -68,27 +68,37 @@ const Dashboard = () => {
 						<p>Edutech skills acquisition platforms</p>
 					</Link>
 
-					<Link className='flex justify-start items-center space-x-3 text-lg text-blueOne'>
+					<Link
+						to='/e-booking'
+						className='flex justify-start items-center space-x-3 text-lg text-blueOne'>
 						<BiSolidBookReader className='text-2xl' />
 						<p>E-booking system</p>
 					</Link>
 
-					<Link className='flex justify-start items-center space-x-3 text-lg text-blueOne'>
+					<Link
+						to='/staking'
+						className='flex justify-start items-center space-x-3 text-lg text-blueOne'>
 						<MdOutlineSsidChart className='text-2xl' />
 						<p>Staking Platform</p>
 					</Link>
 
-					<Link className='flex justify-start items-center space-x-3 text-lg text-blueOne'>
+					<Link
+						to='/exchange'
+						className='flex justify-start items-center space-x-3 text-lg text-blueOne'>
 						<AiFillDollarCircle className='text-2xl' />
 						<p>Crypto ot Fait exchange</p>
 					</Link>
 
-					<Link className='flex justify-start items-center space-x-3 text-lg text-blueOne'>
+					<Link
+						to='/peer'
+						className='flex justify-start items-center space-x-3 text-lg text-blueOne'>
 						<FaUsersRays className='text-2xl' />
 						<p>Peer-to-peer </p>
 					</Link>
 
-					<Link className='flex justify-start items-center space-x-3 text-lg text-blueOne'>
+					<Link
+						to='/bst-dex'
+						className='flex justify-start items-center space-x-3 text-lg text-blueOne'>
 						<RiBitCoinLine className='text-2xl' />
 						<p>BST DEX</p>
 					</Link>

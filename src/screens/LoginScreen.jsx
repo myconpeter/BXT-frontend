@@ -43,7 +43,7 @@ const LoginScreen = () => {
 						/>
 					</div>
 				</div>
-				<div className='flex flex-col mx-3    text-lg mb-2 mt-5'>
+				<div className='flex flex-col mx-3    text-lg mb-2 mt-2'>
 					<p className='text-blueOne text-sm font-semibold'>
 						Password
 					</p>

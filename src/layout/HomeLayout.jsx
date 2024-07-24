@@ -5,6 +5,7 @@ import { MdDashboard } from 'react-icons/md';
 import { IoSettingsSharp } from 'react-icons/io5';
 import { FaUser } from 'react-icons/fa';
 import { NavLink, Outlet } from 'react-router-dom';
+import { BiSolidWallet } from 'react-icons/bi';
 
 const HomeLayout = () => {
 	return (
@@ -36,7 +37,7 @@ const HomeLayout = () => {
 									{/* 
                                  reminder for notification change color to red
                                  */}
-									<FaBell />
+									<MdDashboard />
 
 									<p className='text-blueOne text-xs'>
 										Dashboard
@@ -51,7 +52,7 @@ const HomeLayout = () => {
 											? ' p-2 text-black flex flex-col items-center'
 											: 'p-2 text-blueOne flex flex-col items-center'
 									}>
-									<MdDashboard />
+									<BiSolidWallet />
 
 									<p className='text-blueOne text-xs'>
 										Wallet
