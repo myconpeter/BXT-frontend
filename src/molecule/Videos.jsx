@@ -1,4 +1,4 @@
-import booKOne from '../assets/bookOne.jpeg';
+import { Link } from 'react-router-dom';
 import { FaStar } from 'react-icons/fa';
 
 const Videos = () => {
@@ -24,9 +24,11 @@ const Videos = () => {
 				</div>
 
 				<div className='mt-2 text-blueOne text-center'>
-					<button className='px-3 py-1 rounded-xl bg-blueOne text-white text-xs'>
+					<Link
+						to='/edutech/more-course-details'
+						className='px-3 py-1 rounded-xl bg-blueOne text-white text-xs'>
 						More
-					</button>
+					</Link>
 				</div>
 			</div>
 		</div>

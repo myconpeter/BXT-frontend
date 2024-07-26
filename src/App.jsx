@@ -24,6 +24,10 @@ import StakingHomeScreen from './screens/staking/StakingHomeScreen';
 import ExchangeHomeScreen from './screens/exchange/ExchangeHomeScreen';
 import PeerHomeScreen from './screens/peer-to-peer/PeerHomeScreen';
 import BSTHomeScreen from './screens/BST-DEX/BSTHomeScreen';
+import MyBooks from './screens/Edutech/MyBooks';
+import MyVideos from './screens/Edutech/MyVideos';
+import MoreBookDetails from './screens/Edutech/MoreBookDetails';
+import MoreCoursesDetails from './screens/Edutech/MoreCoursesDetails';
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -97,9 +101,31 @@ const router = createBrowserRouter(
 				{/* EDU TECH ACTION */}
 
 				<Route
-					index
 					path='/edutech'
-					element={<IntroScreen />}></Route>
+					element={<HomeLayout />}>
+					<Route
+						index
+						element={<IntroScreen />}
+					/>
+
+					<Route
+						path='my-books'
+						element={<MyBooks />}
+					/>
+
+					<Route
+						path='my-courses'
+						element={<MyVideos />}
+					/>
+					<Route
+						path='more-book-details'
+						element={<MoreBookDetails />}
+					/>
+					<Route
+						path='more-course-details'
+						element={<MoreCoursesDetails />}
+					/>
+				</Route>
 
 				{/* Route for E-booking platform */}
 				<Route
