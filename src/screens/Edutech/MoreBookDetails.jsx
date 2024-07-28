@@ -54,10 +54,11 @@ const MoreBookDetails = () => {
 						</p>
 					</div>
 
-					<div className='mt-9'>
+					<div className='mt-5 '>
 						<Link className='py-2 px-4 bg-blueOne font-bold text-white rounded-lg text-xl'>
 							Buy
 						</Link>
+						x
 					</div>
 				</div>
 			</div>

@@ -27,8 +27,8 @@ const WalletPageScreen = () => {
 							</div>
 
 							<div className='relative flex gap-2 items-center'>
-								<p>Naira Equivalent</p>
-								<p>₦25</p>
+								<p>Dollar Equivalent</p>
+								<p>$2</p>
 							</div>
 
 							<div className='relative flex gap-2 items-center text-blueOne'>
